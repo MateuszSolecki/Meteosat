@@ -15,7 +15,7 @@ NCDF_VARGET, wys, 'cth', cth
 NCDF_CLOSE, wsp
 NCDF_CLOSE, wys
 
-GdzieChmury = WHERE(cth GT 0)
+GdzieChmury = WHERE(cth GT 0) ;abc
 H_Chmur = cth[GdzieChmury]
 GdzieChmury_lon = lon[GdzieChmury]
 GdzieChmury_lat = lat[GdzieChmury]
